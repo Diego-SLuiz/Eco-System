@@ -7,10 +7,6 @@ typedef enum {
 	SUL,
 	LESTE,
 	OESTE,
-	NORDESTE,
-	NOROESTE,
-	SUDESTE,
-	SUDOESTE
 } Regiao;
 
 typedef struct {
