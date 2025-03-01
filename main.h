@@ -692,7 +692,7 @@ void funcaoMenuRelatoriosVoltar() {
 **************************************************************************************************/
 void funcaoMenuRelatoriosFaturamento() {
 	gerarRelatorioFaturamento();
-	printf("\nRelatorio de faturamento gerado com sucesso!\n");
+	printf("Relatorio de faturamento gerado com sucesso!\n");
 	MENU_ATUAL = MENU_RELATORIOS;
 	limparConsole();
 }
@@ -704,7 +704,7 @@ void funcaoMenuRelatoriosFaturamento() {
 **************************************************************************************************/
 void funcaoMenuRelatoriosClientes() {
 	gerarRelatorioClientes();
-	printf("\nRelatorio de clientes gerado com sucesso!\n");
+	printf("Relatorio de clientes gerado com sucesso!\n");
 	MENU_ATUAL = MENU_RELATORIOS;
 	limparConsole();
 }
