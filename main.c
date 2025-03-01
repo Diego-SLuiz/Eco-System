@@ -76,7 +76,7 @@ int main() {
 	Menu* menuRelatorios = criarMenu("MENU - RELATORIOS");
 
 	MenuItem* menuRelatoriosVoltar = criarMenuItem("Voltar", funcaoMenuRelatoriosVoltar);
-	MenuItem* menuRelatoriosFaturamento = criarMenuItem("Gerar relatorio de Serviços", funcaoMenuRelatoriosFaturamento);
+	MenuItem* menuRelatoriosFaturamento = criarMenuItem("Gerar relatorio de Servicos", funcaoMenuRelatoriosFaturamento);
 	MenuItem* menuRelatoriosClientes = criarMenuItem("Gerar relatorio de Clientes", funcaoMenuRelatoriosClientes);
 
 	adicionarMenuItem(menuRelatorios, menuRelatoriosVoltar);
